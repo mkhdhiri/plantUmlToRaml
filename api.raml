@@ -1,0 +1,14 @@
+#%RAML 1.0
+title: Mon API REST
+version: 1.0.0
+baseUri: https://api.example.com/v1
+/utilisateurs:
+  summary: Récupérer la liste des utilisateurs
+  get:
+    summary: Récupérer un utilisateur par ID
+    responses:
+      200:
+        description: OK
+        body:
+          application/json:
+            example: |
